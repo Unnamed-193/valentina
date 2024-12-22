@@ -1,0 +1,40 @@
+/* .image {
+  float: right;
+} */
+
+/* body {
+  height: 2000px;
+} */
+
+.block {
+  width: 500px;
+  margin: 0 auto;
+  border: 3px solid #ff0000;
+  height: 300px;
+  overflow: hidden;
+}
+
+/*
+.elem {
+  height: 200px;
+  width: 200px;
+  background-color: gray;
+  border: 1px solid #000;
+} */
+
+
+.block {
+  color: red;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  /* background-image: url("https://masterpiecer-images.s3.yandex.net/b2d91936767a11eeb11ee6d39d9a42a4:upscaled"); */
+}
+
+.block-1 {}
+
+.block-1 {}
+
+.block-1 {}
+
+.block-1 {}
