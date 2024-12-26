@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@font-face {
+  font-family: 'Muller'; /* имя шрифта */
+  font-style: normal; /* стиль шрифта */
+  font-weight: 400; /* вес шрифта */
+  font-display: swap;
+  src: url('fonts/Muller-Trial-Regular.woff2') format('woff2'),
+  url('fonts/Muller-Trial-Regular.woff') format('woff'); /* шрифт */
+}
+
+@font-face {
+  font-family: 'Muller'; /* имя шрифта */
+  font-style: normal; /* стиль шрифта */
+  font-weight: 700; /* вес шрифта */
+  font-display: swap;
+  src: url('fonts/Muller-Trial-Bold.woff2') format('woff2'),
+  url('fonts/Muller-Trial-Bold.woff') format('woff'); /* шрифт */
+}
+
+
+body {
+  font-family: "Caveat", serif;
+}
+.color {
+  opacity: 1;
+  font-size: 16px;
+  line-height: 200%; /* межстрочный интервал */
+  /* letter-spacing: 5px; /* расстрояние между буквами  */
+  text-indent: 20px; /* отступ от красной строки */
+  word-spacing: 20px; /* расстроение между словами */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  /* text-transform: lowercase;
+  text-transform: uppercase; */
+  text-transform: capitalize;
+}
+
+.font {
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 800;
+
+}
+
+.muller {
+  font-family: 'Muller', sans-serif;
+}
