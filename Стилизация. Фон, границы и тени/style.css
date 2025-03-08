@@ -97,3 +97,21 @@ h1, p {
   color: transparent; /* Прозрачный цвет шрифта для отображения фона */
 
 }
+
+.link {
+  font-size: 30px;
+  visibility: hidden;
+}
+
+ul {
+  list-style: none; /* Убрать стиль списка */
+}
+
+button {
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
+span {
+  outline: 1px solid #000;
+}

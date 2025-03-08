@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.container-flex {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; // сокращение для flex-direction и flex-wrap */
+  border: 1px solid black;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  /* align-content: stretch; */
+  /* gap: 30px; */
+  gap: 20px;
+  height: 600px;
+}
+
+/* свойства flex контейра */
+ /* display */
+/* flex-direction */
+/* flex-wrap */
+/* flex-flow */
+/* align-content */
+/* justify-content */
+/* align-items */
+/* gap */
+
+.flex-item {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+   width: 100px; 
+  height: 100px; 
+  background-color: red;
+  /* padding: 10px; */
+  border: 1px solid black;
+  font-size: 30px;
+  color: white;
+  /* flex-shrink: 1; */
+  /* flex-basis: 100px; */
+  /* flex: flex-grow, flex-shrink и flex-basis; */
+  flex: 0 1 auto;
+}
+
+.flex-item p {
+  margin: auto;
+}
+
+ /* свойства flex элементов */
+ /* order */
+ /* flex-grow */
+ /* flex-shrink */
+ /* flex-basis */
+ /* flex */
+ /* align-self */
+
+.item-1 {
+  /* flex-grow: 1; */
+  order: 3;
+  flex: 1 1 auto;
+}
+
+.item-2 {
+  order: 2;
+  /* align-self: flex-start; */
+}
+
+.item-3 {
+  order: 1;
+}
+
+.item-4 {
+  order: 4;
+  /* align-self: flex-end; */
+}
+
+.item-5 {
+  order: 5;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.logo {
+}
+
+.title {
+  /* margin-right: auto; */
+}
+
+.btn {
+  margin-left: auto;
+}
